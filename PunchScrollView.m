@@ -399,6 +399,7 @@
             }
             vc.view = nil;
         }
+        [pageController_ removeObject:vc];
     }
     [controllerViewsToDelete release];
     
